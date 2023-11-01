@@ -3,8 +3,7 @@ const PORT = 9000
 
 const io = new Server(PORT, {
     cors: {
-        origin: 'https://realtimechatclone.vercel.app'
-        // origin: 'http://localhost:3000',
+        // origin: 'https://realtimechatclone.vercel.app'
     }, 
 })
 
